@@ -31265,9 +31265,6 @@
 /obj/effect/floor_decal/steeldecal/steel_decals7{
 	dir = 10
 	},
-/obj/structure/window/basic{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
@@ -31696,25 +31693,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/lower/third_south)
-"bbA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloor{
-	dir = 1
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals7,
-/obj/effect/floor_decal/steeldecal/steel_decals7{
-	dir = 4
-	},
-/obj/structure/window/basic{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/tether/surfacebase/surface_three_hall)
 "bbB" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -34290,7 +34268,7 @@
 	name = "box of measuring cups";
 	pixel_x = 2;
 	pixel_y = 3;
-	starts_with = list(/obj/item/weapon/reagent_containers/glass/beaker/measuring_cup = 7)
+	starts_with = list(/obj/item/weapon/reagent_containers/glass/beaker/measuring_cup=7)
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/kitchen)
@@ -41366,25 +41344,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tether/surfacebase/security/briefingroom)
-"myZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/effect/floor_decal/borderfloor{
-	dir = 8
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals7{
-	dir = 5
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals7{
-	dir = 6
-	},
-/obj/structure/window/basic{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/tether/surfacebase/surface_three_hall)
 "mBz" = (
 /obj/structure/closet/lawcloset,
 /obj/effect/floor_decal/spline/plain{
@@ -56516,7 +56475,7 @@ asT
 alX
 alX
 auH
-bbA
+bbF
 afe
 afg
 axS
@@ -56658,7 +56617,7 @@ asT
 alY
 alY
 auI
-bbA
+bbF
 ajM
 aoG
 axT
@@ -56800,7 +56759,7 @@ asT
 alY
 alY
 auI
-bbA
+bbF
 ajM
 aoI
 axk
@@ -58504,7 +58463,7 @@ asT
 alY
 alY
 auI
-bbA
+bbF
 ajR
 aGA
 aEd
@@ -58646,7 +58605,7 @@ asT
 alY
 alY
 auI
-bbA
+bbF
 ajR
 aLh
 aYC
@@ -58788,7 +58747,7 @@ asT
 alZ
 alZ
 auJ
-bbA
+bbF
 ajR
 aDz
 aYC
@@ -58927,9 +58886,9 @@ vKm
 nlf
 wXr
 vvA
-myZ
-myZ
-myZ
+vKm
+vKm
+vKm
 dsF
 aDV
 aZd

@@ -4913,9 +4913,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/window/basic{
-	dir = 4
-	},
 /obj/machinery/door/firedoor/glass/hidden{
 	dir = 8
 	},
@@ -15094,15 +15091,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/asmaint2)
-"ayH" = (
-/obj/effect/floor_decal/borderfloor,
-/obj/effect/floor_decal/corner/green/border,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/window/basic,
-/turf/simulated/floor/tiled/techmaint,
-/area/tether/surfacebase/surface_two_hall)
 "ayI" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/green/border,
@@ -15456,9 +15444,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/structure/window/basic{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tether/surfacebase/surface_two_hall)
@@ -16980,9 +16965,6 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/structure/window/basic{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tether/surfacebase/surface_two_hall)
 "aCI" = (
@@ -17364,9 +17346,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/green/border{
-	dir = 4
-	},
-/obj/structure/window/basic{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -19710,7 +19689,7 @@
 /obj/random/maintenance/engineering,
 /obj/effect/floor_decal/rust,
 /obj/item/clothing/suit/storage/vest/hoscoat/jensen{
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0);
+	armor = list("melee"=0,"bullet"=0,"laser"=0,"energy"=0,"bomb"=0,"bio"=0,"rad"=0);
 	desc = "Its an old, dusty trenchcoat... what a shame.";
 	name = "trenchcoat"
 	},
@@ -20324,24 +20303,6 @@
 	},
 /turf/simulated/open,
 /area/tether/surfacebase/surface_two_hall)
-"aJt" = (
-/obj/effect/floor_decal/borderfloor{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/green/border{
-	dir = 8
-	},
-/obj/structure/window/basic{
-	dir = 8
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/techmaint,
-/area/tether/surfacebase/surface_two_hall)
 "aJu" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
@@ -20866,9 +20827,6 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 4
 	},
-/obj/structure/window/basic{
-	dir = 4
-	},
 /obj/machinery/door/firedoor/glass/hidden{
 	dir = 8
 	},
@@ -20902,9 +20860,6 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/green/border{
-	dir = 8
-	},
-/obj/structure/window/basic{
 	dir = 8
 	},
 /obj/structure/cable{
@@ -21227,9 +21182,6 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/green/border{
-	dir = 1
-	},
-/obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -28070,7 +28022,7 @@
 	input_tag = "atmos_out";
 	name = "Atmos Intake Control";
 	output_tag = "atmos_in";
-	sensors = list("atmos_intake" = "Tank")
+	sensors = list("atmos_intake"="Tank")
 	},
 /turf/simulated/floor/tiled,
 /area/engineering/atmos/monitoring)
@@ -46764,7 +46716,7 @@ ajE
 avD
 axo
 ayc
-ayH
+ayI
 aza
 azE
 azE
@@ -46906,7 +46858,7 @@ adt
 avD
 lJc
 ayd
-ayH
+ayI
 azb
 azF
 azF
@@ -47048,7 +47000,7 @@ adt
 avD
 axq
 ayd
-ayH
+ayI
 azb
 azF
 azF
@@ -47190,7 +47142,7 @@ avD
 avD
 axr
 ayd
-ayH
+ayI
 azb
 azF
 azF
@@ -49197,8 +49149,8 @@ aHw
 aHO
 aIv
 aIX
-aJt
-aJt
+aIX
+aIX
 aKz
 aLk
 aLR
